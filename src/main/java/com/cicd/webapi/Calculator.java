@@ -15,7 +15,7 @@ public class Calculator {
 
     public double divide(double a, double b) {
         if (b == 0) {
-            throw new IllegalArgumentException("Denominator cannot be zero");
+            throw new IllegalArgumentException("Denominator cannot be zero.");
         }
         return a / b;
     }
